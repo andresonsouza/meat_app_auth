@@ -28,11 +28,11 @@ Após os serviços subirem acessaar a url abaixo e efetuar o login:
 
 [http://localhost:8081](http://localhost:8081)
 
-* Os dados padrão de login:
+Os dados de usuário abaixo são os que vem como padrão de login:
 Username: admin 
 Password: pass
 
-![](https://imgur.com/a/w4VKUkc)
+![](./assets/login.png)
 
 * Para parar a execução basta executar o comando abaixo na raiz do projeto:
 
