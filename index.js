@@ -7,7 +7,7 @@ const app = express();
 app.use(bodyParser.json());
 
 mongoose
-  .connect('mongodb://db:27017/crud-node-mongo-docker', {
+  .connect('mongodb://mongo:27017/meat-app-auth', {
     useNewUrlParser: true
   })
   .then(result => {
@@ -17,4 +17,4 @@ mongoose
     console.log(error);
   });
 
-app.listen(9000, () => console.log('Server ativo na porta 9000'));
+app.listen(3000, () => console.log('Server ativo na porta 3000'));
