@@ -6,19 +6,19 @@ Api de Autenticação para gerenciamento de usuário
 
 * Clone o projeto:
 
-``` bash
+```bash
 git clone https://github.com/andresonsouza/meat_app_auth.git
 ```
 
 * Entre no diretório do projeto:
 
-``` bash
-cd HelpDeskApi
+```bash
+cd meat_app_auth
 ```
 
 * Suba o banco de dados e a aplicação;
 
-``` bash
+```bash
 docker-compose up -d
 ```
 
@@ -29,13 +29,13 @@ Após os serviços subirem acessaar a url abaixo e efetuar o login:
 [http://localhost:8081](http://localhost:8081)
 
 Os dados de usuário abaixo são os que vem como padrão de login:
-Username: admin 
+Username: admin
 Password: pass
 
 ![](./assets/login.png)
 
 * Para parar a execução basta executar o comando abaixo na raiz do projeto:
 
-``` bash
+```bash
 docker-compose down
 ```
