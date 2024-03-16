@@ -24,11 +24,13 @@ docker-compose up -d
 
 * Faça o login no mogo-express
 
-Após os serviços subirem acessaar a url abaixo e efetuar o login:
+Após os serviços subirem acessar a url abaixo e efetuar o login:
 
 [http://localhost:8081](http://localhost:8081)
 
 Os dados de usuário abaixo são os que vem como padrão de login:
+
+
 Username: admin
 Password: pass
 
