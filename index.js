@@ -2,8 +2,8 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const cors = require("cors");
-const authapi = require('./routes/authapi');
-const restauratapi = require('./routes/restauratapi');
+const authapi = require("./routes/authapi");
+const restauratapi = require("./routes/restauratapi");
 
 const app = express();
 
@@ -22,7 +22,11 @@ mongoose
     console.log(error);
   });
 
-  app.use('authapi', authapi);
-  app.use('restauratapi', restauratapi);
+app.use("/authapi", authapi);
+app.use("/restauratapi", restauratapi);
+
+app.get("/", function (req, res) {
+  res.send("Hello World!");
+});
 
 app.listen(3000, () => console.log("Server ativo na porta 3000"));
