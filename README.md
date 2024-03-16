@@ -30,7 +30,6 @@ Após os serviços subirem acessar a url abaixo e efetuar o login:
 
 Os dados de usuário abaixo são os que vem como padrão de login:
 
-
 Username: admin
 Password: pass
 
