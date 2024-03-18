@@ -2,7 +2,7 @@
 
 Api de Autenticação para gerenciamento de usuário
 
-## Passos executar a aplicação com docker
+## Passos executar a aplicação
 
 * Clone o projeto:
 
@@ -16,27 +16,13 @@ git clone https://github.com/andresonsouza/meat_app_auth.git
 cd meat_app_auth
 ```
 
-* Suba o banco de dados e a aplicação;
+* Para gerar dados fake de restaurantes e usuários entre no diretório utils e execute os comandos abaixo:
 
-```bash
-docker-compose up -d
-```
+  ```
+  node gen_restaurants.js
+  node gen_people.js
+  ```
 
-* Faça o login no mogo-express
+  ```
 
-Após os serviços subirem acessar a url abaixo e efetuar o login:
-
-[http://localhost:8081](http://localhost:8081)
-
-Os dados de usuário abaixo são os que vem como padrão de login:
-
-Username: admin
-Password: pass
-
-![](./assets/login.png)
-
-* Para parar a execução basta executar o comando abaixo na raiz do projeto:
-
-```bash
-docker-compose down
-```
+  ```

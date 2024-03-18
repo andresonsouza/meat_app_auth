@@ -1,4 +1,4 @@
-const PersonModel = require("../models/RestaurantModel");
+const PersonModel = require("../models/PersonModel");
 
 module.exports = {
   all: function (req, res) {
